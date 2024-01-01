@@ -62,6 +62,7 @@ const Form = ({ currentId, setCurrentId }) => {
     if (currentId) {
       dispatch(updateContact(currentId, formData));
       clear();
+      // console.log(formData);
     } else {
       dispatch(createContact(formData));
       clear();

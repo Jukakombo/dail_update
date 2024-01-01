@@ -61,6 +61,7 @@ const initialState = {
   },
   userLogin: { userInfo: userInfoFromStorage },
 };
+
 const store = createStore(
   reducer,
   initialState,
